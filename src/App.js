@@ -17,7 +17,7 @@ class App extends Component {
         </header>
         <p className="App-intro">
           编辑 <code>src/App.js</code> 就能改变页面展示
-          <button onClick={function() {alert(1)}}>点我</button>
+          <button onClick={sayHi}>点我</button>
         </p>
       </div>
     );
